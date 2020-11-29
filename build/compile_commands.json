@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/inference_engine.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/inference_engine.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/inference_engine.cpp"
+},
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/main.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/main.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/main.cpp"
+},
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/place.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/place.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/place.cpp"
+},
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/readcsv.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/readcsv.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/readcsv.cpp"
+}
+]

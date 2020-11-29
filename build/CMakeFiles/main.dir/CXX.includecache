@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhenrong1999/Projects/asn1_cpt342/main.cpp
+readcsv.hpp
+/home/zhenrong1999/Projects/asn1_cpt342/readcsv.hpp
+iostream
+-
+list
+-
+map
+-
+string
+-
+
+/home/zhenrong1999/Projects/asn1_cpt342/place.hpp
+iostream
+-
+forward_list
+-
+
+/home/zhenrong1999/Projects/asn1_cpt342/readcsv.hpp
+place.hpp
+/home/zhenrong1999/Projects/asn1_cpt342/place.hpp
+fstream
+-
+iostream
+-
+limits
+-
+sstream
+-
+
