@@ -142,6 +142,33 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+data.o: data.cpp.o
+
+.PHONY : data.o
+
+# target to build an object file
+data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/data.cpp.o
+.PHONY : data.cpp.o
+
+data.i: data.cpp.i
+
+.PHONY : data.i
+
+# target to preprocess a source file
+data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/data.cpp.i
+.PHONY : data.cpp.i
+
+data.s: data.cpp.s
+
+.PHONY : data.s
+
+# target to generate assembly for a file
+data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/data.cpp.s
+.PHONY : data.cpp.s
+
 inference_engine.o: inference_engine.cpp.o
 
 .PHONY : inference_engine.o
@@ -168,6 +195,33 @@ inference_engine.s: inference_engine.cpp.s
 inference_engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/inference_engine.cpp.s
 .PHONY : inference_engine.cpp.s
+
+interest.o: interest.cpp.o
+
+.PHONY : interest.o
+
+# target to build an object file
+interest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/interest.cpp.o
+.PHONY : interest.cpp.o
+
+interest.i: interest.cpp.i
+
+.PHONY : interest.i
+
+# target to preprocess a source file
+interest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/interest.cpp.i
+.PHONY : interest.cpp.i
+
+interest.s: interest.cpp.s
+
+.PHONY : interest.s
+
+# target to generate assembly for a file
+interest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/interest.cpp.s
+.PHONY : interest.cpp.s
 
 main.o: main.cpp.o
 
@@ -259,9 +313,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... data.o"
+	@echo "... data.i"
+	@echo "... data.s"
 	@echo "... inference_engine.o"
 	@echo "... inference_engine.i"
 	@echo "... inference_engine.s"
+	@echo "... interest.o"
+	@echo "... interest.i"
+	@echo "... interest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/data.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/data.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/data.cpp"
+},
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
   "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/inference_engine.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/inference_engine.cpp",
   "file": "/home/zhenrong1999/Projects/asn1_cpt342/inference_engine.cpp"
+},
+{
+  "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",
+  "command": "/usr/bin/g++   -O3 -DNDEBUG -o CMakeFiles/main.dir/interest.cpp.o -c /home/zhenrong1999/Projects/asn1_cpt342/interest.cpp",
+  "file": "/home/zhenrong1999/Projects/asn1_cpt342/interest.cpp"
 },
 {
   "directory": "/home/zhenrong1999/Projects/asn1_cpt342/build",

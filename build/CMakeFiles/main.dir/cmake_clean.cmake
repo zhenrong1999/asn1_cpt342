@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/data.cpp.o"
   "CMakeFiles/main.dir/inference_engine.cpp.o"
+  "CMakeFiles/main.dir/interest.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/place.cpp.o"
   "CMakeFiles/main.dir/readcsv.cpp.o"
