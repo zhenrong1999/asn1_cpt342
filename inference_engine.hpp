@@ -2,7 +2,7 @@
 #define INFERENCEENGGINE_H
 #include "data.hpp"
 #include <algorithm>
-#include <forward_list>
+#include <deque>
 #include <iostream>
 struct Score
 {
@@ -15,7 +15,11 @@ struct Input_data
 {
   std::string cost;
   std::string personality;
-  std::forward_list<std::string> interest_priority;
+  unsigned int personality_tendency = 0;
+  unsigned int personality_max_tendency;
+  std::list<std::string> interest_priority;
+void personality_inferece();
+
 };
 
 std::list<Score> find_optimum(Input_data input, Data database);

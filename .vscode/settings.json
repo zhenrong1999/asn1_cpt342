@@ -1,5 +1,4 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
         "cctype": "cpp",
         "clocale": "cpp",
@@ -76,7 +75,8 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "*.inc": "cpp"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[cpp]": {
