@@ -8,7 +8,7 @@ using namespace std;
 
 void ClearScreen()
 {
-  system("CLR");
+  system("CLS");
   //cout << string( 100, '\n' );
 }
 
